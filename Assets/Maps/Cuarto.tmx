@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="7" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
+ <tileset firstgid="1" source="tsx/Piso05.tsx"/>
+ <tileset firstgid="65" source="tsx/Sala02.tsx"/>
+ <tileset firstgid="321" source="tsx/Sala01.tsx"/>
+ <tileset firstgid="777" source="tsx/Sala08.tsx"/>
+ <tileset firstgid="1033" source="tsx/Sala06.tsx"/>
+ <tileset firstgid="1847" source="tsx/Sala03.tsx"/>
+ <tileset firstgid="2135" source="tsx/Sala04.tsx"/>
+ <tileset firstgid="2572" source="tsx/Mueble01.tsx"/>
+ <tileset firstgid="2828" source="tsx/Mueble04.tsx"/>
+ <tileset firstgid="3084" source="tsx/Biblio02.tsx"/>
+ <tileset firstgid="3435" source="tsx/Exterior02.tsx"/>
+ <tileset firstgid="3691" source="tsx/Mueble05.tsx"/>
+ <tileset firstgid="3947" source="tsx/Tecno03.tsx"/>
+ <tileset firstgid="4203" source="tsx/Piso03.tsx"/>
+ <layer id="1" name="piso" width="7" height="6">
+  <data encoding="csv">
+720,720,724,724,745,720,726,
+724,724,724,724,724,724,726,
+724,724,724,724,724,724,724,
+724,724,724,724,724,724,724,
+724,724,724,724,724,724,724,
+724,724,724,724,724,724,724
+</data>
+ </layer>
+ <layer id="2" name="cubertor" width="7" height="6" opacity="0.23">
+  <data encoding="csv">
+0,0,0,0,0,0,722,
+722,0,0,0,0,722,722,
+722,722,722,722,722,722,722,
+722,722,722,722,722,722,722,
+722,722,722,722,722,722,722,
+722,722,722,722,722,722,722
+</data>
+ </layer>
+ <layer id="3" name="pared" width="7" height="6">
+  <data encoding="csv">
+4241,4241,4241,4241,4241,4241,4241,
+4241,4241,4241,4241,4241,4241,4241,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,610,611,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="ventanas" width="7" height="6">
+  <data encoding="csv">
+0,0,3388,3389,0,0,0,
+0,0,3401,3402,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="objetos" width="7" height="6">
+  <data encoding="csv">
+3240,3241,0,0,3097,3245,0,
+3253,3254,1129,1130,1131,3258,0,
+3266,3267,1151,1152,1153,3271,3363,
+0,0,0,0,0,0,2925,
+0,0,0,0,0,0,2941,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" width="7" height="6">
+  <data encoding="csv">
+0,0,0,3987,0,0,3337,
+0,0,3327,4003,0,0,3350,
+0,0,0,3128,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
