@@ -6,6 +6,7 @@ public class ToSceneTurtle : MonoBehaviour {
     public Transform posSceneTurtle;
     public GameObject tortuga;
     public NocheManager nocheManager;
+    public Animator anim_joystick;
 
     // Para controlar si empieza o no la transición
     private bool start = false;
@@ -38,6 +39,7 @@ public class ToSceneTurtle : MonoBehaviour {
         }
         if (collision.tag == "Action") {
             FadeIn();
+            anim_joystick.SetBool("IsClosed", true);
 
             yield return new WaitForSeconds(fadeTime);
             FadeOut();
