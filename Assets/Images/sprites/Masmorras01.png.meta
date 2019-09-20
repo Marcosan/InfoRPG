@@ -41,6 +41,8 @@ TextureImporter:
     21300072: Masmorras01_26
     21300074: Masmorras01_27
     21300076: Masmorras01_28
+    21300078: Masmorras01_29
+    21300080: Masmorras01_30
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -924,13 +926,53 @@ TextureImporter:
         width: 56
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: f59a4a785a0339248831cffda12d540c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masmorras01_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 281
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2a46843c12c8748ab9432dfc9ed44e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masmorras01_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 209
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bb02f4164f8de429973557fdb7c5a4
       vertices: []
       indices: 
       edges: []

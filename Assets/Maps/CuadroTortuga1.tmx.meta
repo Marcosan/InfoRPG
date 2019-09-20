@@ -1,0 +1,56 @@
+fileFormatVersion: 2
+guid: 4bf8aef2bfbc8ac488c45811d769f620
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: _MapPrfab/CuadroTortuga1
+    100004: _MapPrfab/CuadroTortuga1/Ceiling01
+    100006: _MapPrfab/CuadroTortuga1/Colision01
+    100008: _MapPrfab/CuadroTortuga1/Piso01
+    100012: _MapPrfab/CuadroTortuga1/Wall01
+    400000: _MapPrfab/CuadroTortuga1/Transform
+    400004: _MapPrfab/CuadroTortuga1/Ceiling01/Transform
+    400006: _MapPrfab/CuadroTortuga1/Colision01/Transform
+    400008: _MapPrfab/CuadroTortuga1/Piso01/Transform
+    400012: _MapPrfab/CuadroTortuga1/Wall01/Transform
+    11400000: _MapPrfab/CuadroTortuga1/MonoBehaviour-SuperTiled2Unity.SuperMap
+    11400002: _MapPrfab/CuadroTortuga1/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400010: _MapPrfab/CuadroTortuga1/Ceiling01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400012: _MapPrfab/CuadroTortuga1/Ceiling01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400014: _MapPrfab/CuadroTortuga1/Ceiling01/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400016: _MapPrfab/CuadroTortuga1/Colision01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400018: _MapPrfab/CuadroTortuga1/Colision01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400020: _MapPrfab/CuadroTortuga1/Colision01/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400022: _MapPrfab/CuadroTortuga1/Piso01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400024: _MapPrfab/CuadroTortuga1/Piso01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400026: _MapPrfab/CuadroTortuga1/Piso01/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400034: _MapPrfab/CuadroTortuga1/Wall01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400036: _MapPrfab/CuadroTortuga1/Wall01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400038: _MapPrfab/CuadroTortuga1/Wall01/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400040: _superAsset
+    100100000: _MapPrfab
+    2569400265252428796: _MapPrfab/CuadroTortuga1/Grid
+    3664157343022684178: _MapPrfab/CuadroTortuga1/Ceiling01/TilemapRenderer
+    3664157343022684180: _MapPrfab/CuadroTortuga1/Colision01/TilemapRenderer
+    3664157343022684182: _MapPrfab/CuadroTortuga1/Piso01/TilemapRenderer
+    3664157343022684186: _MapPrfab/CuadroTortuga1/Wall01/TilemapRenderer
+    8195094279510102544: _MapPrfab/CuadroTortuga1/Ceiling01/Tilemap
+    8195094279510102546: _MapPrfab/CuadroTortuga1/Colision01/Tilemap
+    8195094279510102548: _MapPrfab/CuadroTortuga1/Piso01/Tilemap
+    8195094279510102552: _MapPrfab/CuadroTortuga1/Wall01/Tilemap
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  errors: []
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  pixelsPerUnit: 32
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  tilesAsObjects: 0
+  importSorting: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets: []

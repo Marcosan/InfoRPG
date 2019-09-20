@@ -6,7 +6,7 @@ using UnityEngine;
 public class MainCamera : MonoBehaviour{
 
     Transform target;
-    float tLX, tLY, bRX, bRY; //TopLeftX TopLeftY BottomRightX BottomRightY
+    float tLX = 0f, tLY = 0f, bRX = 0f, bRY = 0f; //TopLeftX TopLeftY BottomRightX BottomRightY
 
     float posX, posY;
     Vector2 velocity;
@@ -20,6 +20,8 @@ public class MainCamera : MonoBehaviour{
     // Transición de 1 segundo
     float fadeTime = 1f;
     GameObject area;
+
+    private bool sinMapa = false;
 
     void Awake(){
         target = GameObject.FindGameObjectWithTag("Player").transform;
@@ -36,10 +38,19 @@ public class MainCamera : MonoBehaviour{
     }
 
     void LateUpdate(){
-        transform.position = new Vector3(
-            Mathf.Clamp(target.position.x, tLX, bRX),
-            Mathf.Clamp(target.position.y, bRY, tLY),
-            transform.position.z);
+        if (tLX == 0) {
+            sinMapa = true;
+        }
+        if (sinMapa)
+            transform.position = new Vector3(
+                target.position.x,
+                target.position.y,
+                transform.position.z);
+        else
+            transform.position = new Vector3(
+                Mathf.Clamp(target.position.x, tLX, bRX),
+                Mathf.Clamp(target.position.y, bRY, tLY),
+                transform.position.z);
     }
 
     public void SetBound (GameObject map){

@@ -246,7 +246,7 @@ public class NpcChase : MonoBehaviour {
         }
     }
 
-    //Si timeSec es negativo, la velocidad se mantiene hasta que se vuelva a llamar a la funcion
+    //Si timeSec es negativo, la velocidad se mantiene constante hasta que se vuelva a llamar a la funcion
     public void SetSpeedNpc(float speed, float timeSec) {
         StopCoroutine(RandomVelocityChase());
         timeSpeedChange = timeSec;
@@ -258,4 +258,8 @@ public class NpcChase : MonoBehaviour {
         }
     }
     
+    //Se detiene el npc
+    public void isMovingNpc(bool d) {
+        this.isGoing = d;
+    }
 }
