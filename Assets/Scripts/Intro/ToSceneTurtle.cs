@@ -27,13 +27,13 @@ public class ToSceneTurtle : MonoBehaviour {
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
-        if (collision.tag == "Player") {
+        if (collision.tag == "Interact") {
             sprite.enabled = false;
         }
     }
 
     private IEnumerator OnTriggerEnter2D(Collider2D collision) {
-        if (collision.tag == "Player") {
+        if (collision.tag == "Interact") {
             sprite.enabled = true;
         }
         if (collision.tag == "Action") {
