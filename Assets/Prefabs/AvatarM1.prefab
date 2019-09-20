@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5261137158636983938}
   - component: {fileID: 5261137158636984061}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: Avatar1
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -190,9 +190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd5a7fc7981f164cbc8cd028ccbdda1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  timeBetweenMove: 0
-  timeToMove: 0
+  moveSpeed: 5
+  timeBetweenMove: 5
+  timeToMove: 3
   tiempoParaRecargar: 0
 --- !u!1 &8059543305013828182
 GameObject:

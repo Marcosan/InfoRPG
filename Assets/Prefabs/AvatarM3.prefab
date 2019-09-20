@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5261137158636983938}
   - component: {fileID: 5261137158636984061}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: Avatar3
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 1366375491
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: fe28f341d050c6b4cae6f02c8fdc0ca7, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 5a85fadf284bb2841a4b4132673b665d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e77a2527ede9434590694091793f252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteSheetName: Character1
+  spriteSheetName: Character3
 --- !u!95 &5261137158636983937
 Animator:
   serializedVersion: 3
@@ -190,9 +190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd5a7fc7981f164cbc8cd028ccbdda1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  timeBetweenMove: 0
-  timeToMove: 0
+  moveSpeed: 5
+  timeBetweenMove: 5
+  timeToMove: 3
   tiempoParaRecargar: 0
 --- !u!1 &8059543305013828182
 GameObject:
