@@ -31,8 +31,16 @@ public class Player : MonoBehaviour{
 
     Text tittleMiniMap;
 
-    // Joistick
+    // Controles
     public Joystick joystick;
+    public Transform cruz;
+    public bool modoTouch;
+    private SpriteRenderer cruz_sprite;
+    private Touch touch;
+    private Vector2 diferencia;
+    private Vector3 posTouch;
+    private RaycastHit2D hitTouch;
+
 
     /* Desde el player se carga la partida y los otros componentes necesarios, asi que por eso esta como objeto en el menu principal
     * de juego, para que no salgan errores por la falta de joystick y etc pondremos un booleano
@@ -58,7 +66,7 @@ public class Player : MonoBehaviour{
         foreach (Transform t in transform){
             numChildren++;
         }
-
+        cruz_sprite = cruz.GetComponent<SpriteRenderer>();
         originalSpeed = speed;
 
         anim = GetComponent<Animator>();
@@ -150,7 +158,11 @@ public class Player : MonoBehaviour{
                 actionCollider.enabled = false;
             }
             //Movements();
-            MoveMentsJoyStick();
+            if (modoTouch) {
+                MovementByTouch();
+            } else {
+                MoveMentsJoyStick();
+            }
 
             Animations(mov);
 
@@ -158,7 +170,6 @@ public class Player : MonoBehaviour{
         }
         if (isMovingAlone) {
             if (transform.position == destinyAlone){
-                Debug.Log("Llegp al punto");
                 GetComponent<BoxCollider2D>().enabled = true;
                 GetComponent<SpriteRenderer>().enabled = true;
                 MovePlayer(true);
@@ -206,7 +217,48 @@ public class Player : MonoBehaviour{
         else
             mov = Vector2.zero;
     }
+    
+    private void MovementByTouch() {
+        if (Input.touchCount == 1 || Input.GetMouseButtonDown(0)) {
+            if(Input.touchCount == 1) {
+                destinyAlone = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+                touch = Input.GetTouch(0);
+                if (touch.phase == TouchPhase.Began) {
+                    MovePjTouch();
+                }
+            }else
+            if (Input.GetMouseButtonDown(0)) {
+                destinyAlone = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                MovePjTouch();
+            }
+        }
+        if (isMovingAlone) {
+            if (transform.position.x <= destinyAlone.x + 0.1 &&
+                transform.position.x >= destinyAlone.x - 0.1 &&
+                transform.position.y <= destinyAlone.y + 0.1 &&
+                transform.position.y >= destinyAlone.y - 0.1) {
+                cruz_sprite.enabled = false;
+                isMovingAlone = false;
+            }
+            else {
+                diferencia = (destinyAlone - transform.position).normalized;
+                mov = new Vector2(diferencia.x, diferencia.y);
+                lastMov = new Vector2(diferencia.x, diferencia.y);
+            }
+            //transform.position = Vector3.MoveTowards(transform.position, destinyAlone, speedTmp * Time.deltaTime);
+        } else {
+            mov = Vector2.zero;
+        }
+    }
 
+    private void MovePjTouch() {
+        isMovingAlone = true;
+        destinyAlone.x = (float)Math.Round(destinyAlone.x, 1);
+        destinyAlone.y = (float)Math.Round(destinyAlone.y, 1);
+        destinyAlone.z = 0;
+        cruz.position = destinyAlone;
+        cruz_sprite.enabled = true;
+    }
     //Angulo con respecto a la vertical y en sentido horario
     public static float Angle(Vector2 p_vector2) {
         if (p_vector2.x < 0) {

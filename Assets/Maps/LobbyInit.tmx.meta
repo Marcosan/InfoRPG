@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 309846292bac3704dab81a558c7298cd
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: _MapPrfab/LobbyInit
+    100002: _MapPrfab/LobbyInit/agua
+    100004: _MapPrfab/LobbyInit/arbolesinferior
+    100006: _MapPrfab/LobbyInit/camino
+    100008: _MapPrfab/LobbyInit/cflorero
+    100010: _MapPrfab/LobbyInit/copa2
+    100012: _MapPrfab/LobbyInit/copaarbol
+    100014: _MapPrfab/LobbyInit/copas3
+    100016: _MapPrfab/LobbyInit/cubertor de piso
+    100018: _MapPrfab/LobbyInit/fondo
+    100020: _MapPrfab/LobbyInit/fondoagua
+    100022: _MapPrfab/LobbyInit/obejtos2
+    100024: _MapPrfab/LobbyInit/obetos3.2
+    100026: _MapPrfab/LobbyInit/objetos
+    100028: _MapPrfab/LobbyInit/objetos3.1
+    100030: _MapPrfab/LobbyInit/objetosSuperficies
+    100032: _MapPrfab/LobbyInit/piso2
+    100034: _MapPrfab/LobbyInit/superficies
+    400000: _MapPrfab/LobbyInit/Transform
+    400002: _MapPrfab/LobbyInit/agua/Transform
+    400004: _MapPrfab/LobbyInit/arbolesinferior/Transform
+    400006: _MapPrfab/LobbyInit/camino/Transform
+    400008: _MapPrfab/LobbyInit/cflorero/Transform
+    400010: _MapPrfab/LobbyInit/copa2/Transform
+    400012: _MapPrfab/LobbyInit/copaarbol/Transform
+    400014: _MapPrfab/LobbyInit/copas3/Transform
+    400016: _MapPrfab/LobbyInit/cubertor de piso/Transform
+    400018: _MapPrfab/LobbyInit/fondo/Transform
+    400020: _MapPrfab/LobbyInit/fondoagua/Transform
+    400022: _MapPrfab/LobbyInit/obejtos2/Transform
+    400024: _MapPrfab/LobbyInit/obetos3.2/Transform
+    400026: _MapPrfab/LobbyInit/objetos/Transform
+    400028: _MapPrfab/LobbyInit/objetos3.1/Transform
+    400030: _MapPrfab/LobbyInit/objetosSuperficies/Transform
+    400032: _MapPrfab/LobbyInit/piso2/Transform
+    400034: _MapPrfab/LobbyInit/superficies/Transform
+    11400000: _MapPrfab/LobbyInit/MonoBehaviour-SuperTiled2Unity.SuperMap
+    11400002: _superAsset
+    11400004: _MapPrfab/LobbyInit/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400006: _MapPrfab/LobbyInit/agua/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400008: _MapPrfab/LobbyInit/agua/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400010: _MapPrfab/LobbyInit/agua/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400012: _MapPrfab/LobbyInit/arbolesinferior/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400014: _MapPrfab/LobbyInit/arbolesinferior/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400016: _MapPrfab/LobbyInit/arbolesinferior/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400018: _MapPrfab/LobbyInit/camino/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400020: _MapPrfab/LobbyInit/camino/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400022: _MapPrfab/LobbyInit/camino/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400024: _MapPrfab/LobbyInit/cflorero/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400026: _MapPrfab/LobbyInit/cflorero/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400028: _MapPrfab/LobbyInit/cflorero/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400030: _MapPrfab/LobbyInit/copa2/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400032: _MapPrfab/LobbyInit/copa2/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400034: _MapPrfab/LobbyInit/copa2/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400036: _MapPrfab/LobbyInit/copaarbol/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400038: _MapPrfab/LobbyInit/copaarbol/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400040: _MapPrfab/LobbyInit/copaarbol/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400042: _MapPrfab/LobbyInit/copas3/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400044: _MapPrfab/LobbyInit/copas3/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400046: _MapPrfab/LobbyInit/copas3/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400048: _MapPrfab/LobbyInit/cubertor de piso/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400050: _MapPrfab/LobbyInit/cubertor de piso/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400052: _MapPrfab/LobbyInit/cubertor de piso/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400054: _MapPrfab/LobbyInit/fondo/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400056: _MapPrfab/LobbyInit/fondo/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400058: _MapPrfab/LobbyInit/fondo/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400060: _MapPrfab/LobbyInit/fondoagua/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400062: _MapPrfab/LobbyInit/fondoagua/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400064: _MapPrfab/LobbyInit/fondoagua/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400066: _MapPrfab/LobbyInit/obejtos2/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400068: _MapPrfab/LobbyInit/obejtos2/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400070: _MapPrfab/LobbyInit/obejtos2/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400072: _MapPrfab/LobbyInit/obetos3.2/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400074: _MapPrfab/LobbyInit/obetos3.2/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400076: _MapPrfab/LobbyInit/obetos3.2/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400078: _MapPrfab/LobbyInit/objetos/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400080: _MapPrfab/LobbyInit/objetos/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400082: _MapPrfab/LobbyInit/objetos/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400084: _MapPrfab/LobbyInit/objetos3.1/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400086: _MapPrfab/LobbyInit/objetos3.1/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400088: _MapPrfab/LobbyInit/objetos3.1/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400090: _MapPrfab/LobbyInit/objetosSuperficies/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400092: _MapPrfab/LobbyInit/objetosSuperficies/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400094: _MapPrfab/LobbyInit/objetosSuperficies/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400096: _MapPrfab/LobbyInit/piso2/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400098: _MapPrfab/LobbyInit/piso2/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400100: _MapPrfab/LobbyInit/piso2/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400102: _MapPrfab/LobbyInit/superficies/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400104: _MapPrfab/LobbyInit/superficies/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400106: _MapPrfab/LobbyInit/superficies/MonoBehaviour-SuperTiled2Unity.TilemapData
+    100100000: _MapPrfab
+    2569400265252428796: _MapPrfab/LobbyInit/Grid
+    3664157343022684176: _MapPrfab/LobbyInit/agua/TilemapRenderer
+    3664157343022684178: _MapPrfab/LobbyInit/arbolesinferior/TilemapRenderer
+    3664157343022684180: _MapPrfab/LobbyInit/camino/TilemapRenderer
+    3664157343022684182: _MapPrfab/LobbyInit/cflorero/TilemapRenderer
+    3664157343022684184: _MapPrfab/LobbyInit/copa2/TilemapRenderer
+    3664157343022684186: _MapPrfab/LobbyInit/copaarbol/TilemapRenderer
+    3664157343022684188: _MapPrfab/LobbyInit/copas3/TilemapRenderer
+    3664157343022684190: _MapPrfab/LobbyInit/cubertor de piso/TilemapRenderer
+    3664157343022684192: _MapPrfab/LobbyInit/fondo/TilemapRenderer
+    3664157343022684194: _MapPrfab/LobbyInit/fondoagua/TilemapRenderer
+    3664157343022684196: _MapPrfab/LobbyInit/obejtos2/TilemapRenderer
+    3664157343022684198: _MapPrfab/LobbyInit/obetos3.2/TilemapRenderer
+    3664157343022684200: _MapPrfab/LobbyInit/objetos/TilemapRenderer
+    3664157343022684202: _MapPrfab/LobbyInit/objetos3.1/TilemapRenderer
+    3664157343022684204: _MapPrfab/LobbyInit/objetosSuperficies/TilemapRenderer
+    3664157343022684206: _MapPrfab/LobbyInit/piso2/TilemapRenderer
+    3664157343022684208: _MapPrfab/LobbyInit/superficies/TilemapRenderer
+    8195094279510102542: _MapPrfab/LobbyInit/agua/Tilemap
+    8195094279510102544: _MapPrfab/LobbyInit/arbolesinferior/Tilemap
+    8195094279510102546: _MapPrfab/LobbyInit/camino/Tilemap
+    8195094279510102548: _MapPrfab/LobbyInit/cflorero/Tilemap
+    8195094279510102550: _MapPrfab/LobbyInit/copa2/Tilemap
+    8195094279510102552: _MapPrfab/LobbyInit/copaarbol/Tilemap
+    8195094279510102554: _MapPrfab/LobbyInit/copas3/Tilemap
+    8195094279510102556: _MapPrfab/LobbyInit/cubertor de piso/Tilemap
+    8195094279510102558: _MapPrfab/LobbyInit/fondo/Tilemap
+    8195094279510102560: _MapPrfab/LobbyInit/fondoagua/Tilemap
+    8195094279510102562: _MapPrfab/LobbyInit/obejtos2/Tilemap
+    8195094279510102564: _MapPrfab/LobbyInit/obetos3.2/Tilemap
+    8195094279510102566: _MapPrfab/LobbyInit/objetos/Tilemap
+    8195094279510102568: _MapPrfab/LobbyInit/objetos3.1/Tilemap
+    8195094279510102570: _MapPrfab/LobbyInit/objetosSuperficies/Tilemap
+    8195094279510102572: _MapPrfab/LobbyInit/piso2/Tilemap
+    8195094279510102574: _MapPrfab/LobbyInit/superficies/Tilemap
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  errors:
+  - Errors detected in tileset 'tsx/Editados01.tsx'. Check the tileset inspector for
+    more details. Your map may be broken until these are fixed.
+  - Errors detected in tileset 'tsx/robots.tsx'. Check the tileset inspector for more
+    details. Your map may be broken until these are fixed.
+  - Could not find tile 9747. Make sure the tilesets were successfully imported.
+  - Could not find tile 9617. Make sure the tilesets were successfully imported.
+  - Could not find tile 9793. Make sure the tilesets were successfully imported.
+  - Could not find tile 9640. Make sure the tilesets were successfully imported.
+  - Could not find tile 9715. Make sure the tilesets were successfully imported.
+  - Could not find tile 9733. Make sure the tilesets were successfully imported.
+  - Could not find tile 9793. Make sure the tilesets were successfully imported.
+  - Could not find tile 9750. Make sure the tilesets were successfully imported.
+  - Could not find tile 9751. Make sure the tilesets were successfully imported.
+  - Could not find tile 9702. Make sure the tilesets were successfully imported.
+  - Could not find tile 9768. Make sure the tilesets were successfully imported.
+  - Could not find tile 9769. Make sure the tilesets were successfully imported.
+  - Could not find tile 9770. Make sure the tilesets were successfully imported.
+  - Could not find tile 9786. Make sure the tilesets were successfully imported.
+  - Could not find tile 9787. Make sure the tilesets were successfully imported.
+  - Could not find tile 9788. Make sure the tilesets were successfully imported.
+  - Could not find tile 9647. Make sure the tilesets were successfully imported.
+  - Could not find tile 9648. Make sure the tilesets were successfully imported.
+  - Could not find tile 9703. Make sure the tilesets were successfully imported.
+  - Could not find tile 9665. Make sure the tilesets were successfully imported.
+  - Could not find tile 9666. Make sure the tilesets were successfully imported.
+  - Could not find tile 9667. Make sure the tilesets were successfully imported.
+  - Could not find tile 9668. Make sure the tilesets were successfully imported.
+  - Could not find tile 9683. Make sure the tilesets were successfully imported.
+  - Could not find tile 9684. Make sure the tilesets were successfully imported.
+  - Could not find tile 9685. Make sure the tilesets were successfully imported.
+  - Could not find tile 9686. Make sure the tilesets were successfully imported.
+  - Could not find tile 9737. Make sure the tilesets were successfully imported.
+  - Could not find tile 9738. Make sure the tilesets were successfully imported.
+  - Could not find tile 9739. Make sure the tilesets were successfully imported.
+  - Could not find tile 9740. Make sure the tilesets were successfully imported.
+  - Could not find tile 9741. Make sure the tilesets were successfully imported.
+  - Could not find tile 9755. Make sure the tilesets were successfully imported.
+  - Could not find tile 9756. Make sure the tilesets were successfully imported.
+  - Could not find tile 9757. Make sure the tilesets were successfully imported.
+  - Could not find tile 9758. Make sure the tilesets were successfully imported.
+  - Could not find tile 9759. Make sure the tilesets were successfully imported.
+  - Could not find tile 9801. Make sure the tilesets were successfully imported.
+  - Could not find tile 9802. Make sure the tilesets were successfully imported.
+  - Could not find tile 9776. Make sure the tilesets were successfully imported.
+  - Could not find tile 9792. Make sure the tilesets were successfully imported.
+  - Could not find tile 9794. Make sure the tilesets were successfully imported.
+  - Could not find tile 9665. Make sure the tilesets were successfully imported.
+  - Could not find tile 9666. Make sure the tilesets were successfully imported.
+  - Could not find tile 9667. Make sure the tilesets were successfully imported.
+  - Could not find tile 9703. Make sure the tilesets were successfully imported.
+  - Could not find tile 9686. Make sure the tilesets were successfully imported.
+  - Could not find tile 9683. Make sure the tilesets were successfully imported.
+  - Could not find tile 9684. Make sure the tilesets were successfully imported.
+  - Could not find tile 9685. Make sure the tilesets were successfully imported.
+  - Could not find tile 9720. Make sure the tilesets were successfully imported.
+  - Could not find tile 9721. Make sure the tilesets were successfully imported.
+  - Could not find tile 9704. Make sure the tilesets were successfully imported.
+  - Could not find tile 9705. Make sure the tilesets were successfully imported.
+  - Could not find tile 9722. Make sure the tilesets were successfully imported.
+  - Could not find tile 9723. Make sure the tilesets were successfully imported.
+  - Could not find tile 9783. Make sure the tilesets were successfully imported.
+  - Could not find tile 9784. Make sure the tilesets were successfully imported.
+  - Could not find tile 9742. Make sure the tilesets were successfully imported.
+  - Could not find tile 9743. Make sure the tilesets were successfully imported.
+  - Could not find tile 9744. Make sure the tilesets were successfully imported.
+  - Could not find tile 9745. Make sure the tilesets were successfully imported.
+  - Could not find tile 9746. Make sure the tilesets were successfully imported.
+  - Could not find tile 9760. Make sure the tilesets were successfully imported.
+  - Could not find tile 9761. Make sure the tilesets were successfully imported.
+  - Could not find tile 9762. Make sure the tilesets were successfully imported.
+  - Could not find tile 9763. Make sure the tilesets were successfully imported.
+  - Could not find tile 9764. Make sure the tilesets were successfully imported.
+  - Could not find tile 9778. Make sure the tilesets were successfully imported.
+  - Could not find tile 9779. Make sure the tilesets were successfully imported.
+  - Could not find tile 9780. Make sure the tilesets were successfully imported.
+  - Could not find tile 9781. Make sure the tilesets were successfully imported.
+  - Could not find tile 9782. Make sure the tilesets were successfully imported.
+  - Could not find tile 9796. Make sure the tilesets were successfully imported.
+  - Could not find tile 9797. Make sure the tilesets were successfully imported.
+  - Could not find tile 9799. Make sure the tilesets were successfully imported.
+  - Could not find tile 9800. Make sure the tilesets were successfully imported.
+  - Could not find tile 9647. Make sure the tilesets were successfully imported.
+  - Could not find tile 9648. Make sure the tilesets were successfully imported.
+  - Could not find tile 9668. Make sure the tilesets were successfully imported.
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  pixelsPerUnit: 32
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  tilesAsObjects: 0
+  importSorting: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets: []

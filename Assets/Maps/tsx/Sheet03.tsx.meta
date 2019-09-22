@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c134cc6a7e5beb44ae04eaf758d8b1a
+guid: a8415a9b6d3585346a4a33bfaa214f6f
 ScriptedImporter:
   fileIDToRecycleName:
     11400000: _TilesetScriptObject
@@ -10,9 +10,7 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: cc34d0f3dc257a442819830b408c5322, type: 3}
   errors:
-  - Mismatching width/height detected. Tileset = (512, 384), image = (600, 500). This
-    may happen when a tileset image has been resized. Open map and tileset in Tiled
-    Map Editor and resave.
+  - 'Missing texture asset for tile 0: Sptites/Tiles/tile_0000.png'
   warnings: []
   missingSortingLayers: []
   missingLayers: []

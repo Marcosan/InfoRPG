@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c134cc6a7e5beb44ae04eaf758d8b1a
+guid: 65c1e97afd9703a478f9340f5b4b03ef
 ScriptedImporter:
   fileIDToRecycleName:
     11400000: _TilesetScriptObject
@@ -10,13 +10,11 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: cc34d0f3dc257a442819830b408c5322, type: 3}
   errors:
-  - Mismatching width/height detected. Tileset = (512, 384), image = (600, 500). This
-    may happen when a tileset image has been resized. Open map and tileset in Tiled
-    Map Editor and resave.
+  - 'Missing texture asset: ../Tiled/sprites/Cerca01.png'
   warnings: []
   missingSortingLayers: []
   missingLayers: []
-  pixelsPerUnit: 32
+  pixelsPerUnit: 100
   edgesPerEllipse: 32
   numberOfObjectsImported: 2
   useSpriteAtlas: 1

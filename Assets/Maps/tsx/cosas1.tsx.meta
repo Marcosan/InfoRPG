@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c134cc6a7e5beb44ae04eaf758d8b1a
+guid: 709ce5775b70f8b4f8acdc14313b7957
 ScriptedImporter:
   fileIDToRecycleName:
     11400000: _TilesetScriptObject
@@ -10,9 +10,7 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: cc34d0f3dc257a442819830b408c5322, type: 3}
   errors:
-  - Mismatching width/height detected. Tileset = (512, 384), image = (600, 500). This
-    may happen when a tileset image has been resized. Open map and tileset in Tiled
-    Map Editor and resave.
+  - 'Missing texture asset: ../GAME/Novatada2019/Assets/Assets/sprites/0eaf4df14e2765d586d592166298cb1d.png'
   warnings: []
   missingSortingLayers: []
   missingLayers: []

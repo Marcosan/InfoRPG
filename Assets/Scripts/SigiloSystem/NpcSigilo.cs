@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NpcChase : MonoBehaviour {
-
+public class NpcSigilo : MonoBehaviour {
+    
     // Variables para gestionar el radio de visión, el de ataque y la velocidad
     public float visionRadius;
     public float attackRadius;
     public float speed;
+    [SerializeField] private SpriteRenderer alertaSp;
+    [SerializeField] private SpriteRenderer wastedSp;
 
     // Variable para guardar al jugador
     private GameObject player;
@@ -98,6 +100,7 @@ public class NpcChase : MonoBehaviour {
             if (target != initialPosition && distance < attackRadius){
                 if (transform.gameObject.tag == "NPC"){
                     anim.Play("NpcWalk", -1, 0);  // Congela la animación de andar, velocidad de animacion 0
+                    NpcWasted();
                 }
             } else {
                 if (transform.gameObject.tag == "NPC"){
@@ -137,11 +140,7 @@ public class NpcChase : MonoBehaviour {
                 anim.SetFloat("moveX", dir.x);
                 anim.SetFloat("moveY", dir.y);
                 anim.Play("NpcWalk", -1, 0);  // Congela la animación de andar, velocidad de animacion 0
-            }
-            if (transform.gameObject.tag == "Neko"){
-                anim.SetFloat("moveX", dir.x);
-                anim.SetFloat("moveY", dir.y);
-                //anim.Play("isWalking", -1, 0);  // Congela la animación de andar, velocidad de animacion 0
+                NpcWasted();
             }
         }
         // En caso contrario nos movemos hacia él
@@ -185,37 +184,41 @@ public class NpcChase : MonoBehaviour {
             player.transform.position - transform.position,
             visionRadius,
             1 << LayerMask.NameToLayer("Default")
-        // Poner el propio Enemy en una layer distinta a Default para evitar el raycast
-        // También poner al objeto Attack y al Prefab Slash una Layer Attack 
-        // Sino los detectará como entorno y se mueve atrás al hacer ataques
         );
 
         // Aquí podemos debugear el Raycast
         forward = transform.TransformDirection(player.transform.position - transform.position);
         Debug.DrawRay(transform.position, forward, Color.red);
 
-        // Si el Raycast encuentra al jugador lo ponemos de target
         if (hit.collider != null) {
             if (transform.gameObject.tag == "NPC"){
                 if (hit.collider.tag == "Player"){
                     target = player.transform.position;
                     //Se convierte en perseguidor
                     isChasing = true;
-                }
-            } else{
-                if (transform.gameObject.tag == "Neko"){
-                    if (hit.collider.tag == "PlayerNeko"){
-                        target = player.transform.position;
-                        //Se convierte en perseguidor
-                        isChasing = true;
-                    }
+                    NpcAlerta();
                 }
             }
         }
         else {
             isChasing = false;
+            alertaSp.enabled = false;
+            wastedSp.enabled = false;
         }
     }
+
+    private void NpcAlerta() {
+        alertaSp.enabled = true;
+        wastedSp.enabled = false;
+        Debug.Log("Alerta");
+    }
+
+    private void NpcWasted() {
+        alertaSp.enabled = false;
+        wastedSp.enabled = true;
+        Debug.Log("Wasted");
+    }
+
 
     public void SetChaser(bool stateChaser) {
         this.isChaser = stateChaser;
