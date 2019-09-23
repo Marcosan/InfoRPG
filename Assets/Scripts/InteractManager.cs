@@ -16,6 +16,7 @@ public class InteractManager : MonoBehaviour {
 
     IEnumerator ActiveInteraction() {
         player.GetComponent<Player>().setIsActionButton(true);
+        player.GetComponent<Player>().SetMovingAlone(false);
         yield return new WaitForSeconds(.1f);
         player.GetComponent<Player>().setIsActionButton(false);
     }

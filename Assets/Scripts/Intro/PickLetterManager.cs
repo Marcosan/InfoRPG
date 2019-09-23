@@ -24,6 +24,6 @@ public class PickLetterManager : MonoBehaviour {
         yield return new WaitForSeconds(5f);
 
         Debug.Log("Termina todo");
-        //SceneManager.LoadScene("Lobby");
+        SceneManager.LoadScene("NewLobby");
     }
 }

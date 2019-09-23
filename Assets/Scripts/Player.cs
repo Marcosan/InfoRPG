@@ -66,22 +66,27 @@ public class Player : MonoBehaviour{
         foreach (Transform t in transform){
             numChildren++;
         }
-        cruz_sprite = cruz.GetComponent<SpriteRenderer>();
-        originalSpeed = speed;
 
-        anim = GetComponent<Animator>();
-        rb2d = GetComponent<Rigidbody2D>();
+        if (!isMainMenu) {
+            if (modoTouch)
+                cruz_sprite = cruz.GetComponent<SpriteRenderer>();
+            originalSpeed = speed;
 
-        actionCollider = transform.GetChild(0).GetComponent<CircleCollider2D>();
-        interCollider = transform.GetChild(1).GetComponent<CircleCollider2D>();
+            anim = GetComponent<Animator>();
+            rb2d = GetComponent<Rigidbody2D>();
 
-        actionCollider.offset = interCollider.offset;
-        actionCollider.radius = interCollider.radius;
+            actionCollider = transform.GetChild(0).GetComponent<CircleCollider2D>();
+            interCollider = transform.GetChild(1).GetComponent<CircleCollider2D>();
 
-        actionCollider.enabled = false;
+            actionCollider.offset = interCollider.offset;
+            actionCollider.radius = interCollider.radius;
+
+            actionCollider.enabled = false;
+        }
+
+            
 
         // Implementacion para el audio en el cambio de escena
-        print("La escena actual es: " + SceneManager.GetActiveScene().name.ToString());
         SoundManager.ChangeMusic();
 
         // Para que la posicion inicial este como se guardo la ultima vez
@@ -146,14 +151,11 @@ public class Player : MonoBehaviour{
     // Update is called once per frame
     void Update(){
 
-        if (!isMainMenu && CanMove)
-        {
-            if (isActionButton)
-            {
+        if (!isMainMenu && CanMove) {
+            if (isActionButton) {
                 interacting = true;
             }
-            else
-            {
+            else {
                 interacting = false;
                 actionCollider.enabled = false;
             }
@@ -167,22 +169,24 @@ public class Player : MonoBehaviour{
             Animations(mov);
 
             Interact();
-        }
-        if (isMovingAlone) {
-            if (transform.position == destinyAlone){
-                GetComponent<BoxCollider2D>().enabled = true;
-                GetComponent<SpriteRenderer>().enabled = true;
-                MovePlayer(true);
-                isMovingAlone = false;
+            if (isMovingAlone) {
+                if (transform.position == destinyAlone){
+                    GetComponent<BoxCollider2D>().enabled = true;
+                    GetComponent<SpriteRenderer>().enabled = true;
+                    MovePlayer(true);
+                    isMovingAlone = false;
+                }
+                else
+                    transform.position = Vector3.MoveTowards(transform.position, destinyAlone, speedTmp * Time.deltaTime);            
             }
-            else
-                transform.position = Vector3.MoveTowards(transform.position, destinyAlone, speedTmp * Time.deltaTime);
-            
         }
+        
     }
     
     private void FixedUpdate(){
-        MoveCharacter();
+        if (!isMainMenu) {
+            MoveCharacter();
+        }
     }
 
     void MoveMentsJoyStick() {
@@ -253,6 +257,13 @@ public class Player : MonoBehaviour{
 
     private void MovePjTouch() {
         isMovingAlone = true;
+        hitTouch = Physics2D.Raycast(destinyAlone, Vector2.zero);
+        if (hitTouch.collider != null) {
+            if (!hitTouch.collider.tag.Equals("World"))
+                isMovingAlone = false;
+        } else {
+
+        }
         destinyAlone.x = (float)Math.Round(destinyAlone.x, 1);
         destinyAlone.y = (float)Math.Round(destinyAlone.y, 1);
         destinyAlone.z = 0;
@@ -363,6 +374,7 @@ public class Player : MonoBehaviour{
 
     // Para guardar la partida
     public void SavePlayer() {
+        isMovingAlone = false;
         // Asigna a una variable la escena antes de guardar.
         ActiveScene = SceneManager.GetActiveScene().name;
         
@@ -414,7 +426,7 @@ public class Player : MonoBehaviour{
         JsonManager.SetInitialDataJson();
         JsonManager.SerializeSettings();
 
-        SaveSystem.LastScene = "Lobby";
+        SaveSystem.LastScene = "Intro";
 
         SceneManager.LoadScene(SaveSystem.LastScene, LoadSceneMode.Single);
 
@@ -463,6 +475,8 @@ public class Player : MonoBehaviour{
      * Al contrario de la serializacion que sirve para guardar objetos masivos
      */
     void SaveLastScene() {
+        isMovingAlone = false;
+
         // Para guardar en PlayerPrefs
         PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
         PlayerPrefs.Save();
@@ -492,6 +506,10 @@ public class Player : MonoBehaviour{
     public void MainMenu() {
         SceneManager.LoadScene("MenuScene", LoadSceneMode.Single);
     }
+    
+    public void ToLobby() {
+        SceneManager.LoadScene("NewLobby", LoadSceneMode.Single);
+    }
 
     public void MoveAlone(Vector3 destiny, float speed) {
         GetComponent<SpriteRenderer>().enabled = false;
@@ -513,6 +531,10 @@ public class Player : MonoBehaviour{
     public void ApplyPhysicsPlatform(float moveForce, float maxSpeed) {
         GetComponent<Rigidbody2D>().velocity = Vector3.ClampMagnitude(GetComponent<Rigidbody2D>().velocity, maxSpeed);
         GetComponent<Rigidbody2D>().AddForce(mov.normalized * moveForce);
+    }
+
+    public void SetMovingAlone(bool movealone) {
+        isMovingAlone = movealone;
     }
 
 }

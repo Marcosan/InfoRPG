@@ -139,7 +139,7 @@ public class SoundManager : MonoBehaviour
     public void SetBackground() {
         // Orden de las escenas en el array se ven desde File>Build Settings
         for ( int i = 0 ; i < UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings; i++ ) {
-            if (SceneManager.GetActiveScene().name.Equals("Scen01") || SceneManager.GetActiveScene().name.Equals("Lobby"))
+            if (SceneManager.GetActiveScene().name.Equals("Scen01") || SceneManager.GetActiveScene().name.Equals("NewLobby"))
             {
                 BackgroundMusic.clip = musicList[0];
             }

@@ -43,7 +43,7 @@ public class JsonManager : MonoBehaviour
 
         if (!File.Exists(filePath))
         {
-            gsettings = new GlobalSettings("New Player", "LOBBY", "LOBBY", "Lobby", true, newMapDarkClear);
+            gsettings = new GlobalSettings("New Player", "NewLobby", "NewLobby", "NewLobby", true, newMapDarkClear);
             using (FileStream fs = new FileStream(filePath, FileMode.Create))
             {
                 using (StreamWriter writer = new StreamWriter(fs))
@@ -137,9 +137,9 @@ public class JsonManager : MonoBehaviour
     public static void SetInitialDataJson() {
         newMapDarkClear = new MapKokoaClass();
         gsettings.namePlayer = "New Player";
-        gsettings.lastInitialMap = "LOBBY";
-        gsettings.lastMapName = "LOBBY";
-        gsettings.lastScene = "Lobby";
+        gsettings.lastInitialMap = "NewLobby";
+        gsettings.lastMapName = "NewLobby";
+        gsettings.lastScene = "NewLobby";
         gsettings.newGame = true;
         gsettings.mapsDarkClear = newMapDarkClear;
 
