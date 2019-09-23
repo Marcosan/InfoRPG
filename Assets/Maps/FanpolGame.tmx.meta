@@ -1,111 +1,70 @@
 fileFormatVersion: 2
-guid: 806392b0536987243aee097e2910e9fa
+guid: 5823bc0df3f9bbd4a830b79724ed4964
 ScriptedImporter:
   fileIDToRecycleName:
-    100000: _MapPrfab/FanpolGame/Colision01/Collision_Default
-    100002: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon
-    100004: _MapPrfab/FanpolGame
-    100006: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (1)
-    100008: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (2)
-    100010: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (3)
-    100012: _MapPrfab/FanpolGame/Agua01
-    100014: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (4)
-    100016: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (5)
-    100018: _MapPrfab/FanpolGame/Ceiling01
-    100020: _MapPrfab/FanpolGame/Colision01
-    100022: _MapPrfab/FanpolGame/Piso01
-    100024: _MapPrfab/FanpolGame/Piso03
-    100026: _MapPrfab/FanpolGame/Wall01
-    100028: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (6)
-    100030: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (7)
-    100032: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (8)
-    100034: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (9)
-    100036: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (10)
-    100038: _MapPrfab/FanpolGame/Wall02
-    400000: _MapPrfab/FanpolGame/Colision01/Collision_Default/Transform
-    400002: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon/Transform
-    400004: _MapPrfab/FanpolGame/Transform
-    400006: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (1)/Transform
-    400008: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (2)/Transform
-    400010: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (3)/Transform
-    400012: _MapPrfab/FanpolGame/Agua01/Transform
-    400014: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (4)/Transform
-    400016: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (5)/Transform
-    400018: _MapPrfab/FanpolGame/Ceiling01/Transform
-    400020: _MapPrfab/FanpolGame/Colision01/Transform
-    400022: _MapPrfab/FanpolGame/Piso01/Transform
-    400024: _MapPrfab/FanpolGame/Piso03/Transform
-    400026: _MapPrfab/FanpolGame/Wall01/Transform
-    400028: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (6)/Transform
-    400030: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (7)/Transform
-    400032: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (8)/Transform
-    400034: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (9)/Transform
-    400036: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (10)/Transform
-    400038: _MapPrfab/FanpolGame/Wall02/Transform
-    5000000: _MapPrfab/FanpolGame/Colision01/Collision_Default/Rigidbody2D
-    6000000: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon/PolygonCollider2D
-    6000002: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (1)/PolygonCollider2D
-    6000004: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (2)/PolygonCollider2D
-    6000006: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (3)/PolygonCollider2D
-    6000008: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (4)/PolygonCollider2D
-    6000010: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (5)/PolygonCollider2D
-    6000012: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (6)/PolygonCollider2D
-    6000014: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (7)/PolygonCollider2D
-    6000016: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (8)/PolygonCollider2D
-    6000018: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (9)/PolygonCollider2D
-    6000020: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (10)/PolygonCollider2D
-    6600000: _MapPrfab/FanpolGame/Colision01/Collision_Default/CompositeCollider2D
-    11400000: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
-    11400002: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (1)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
-    11400004: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (2)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
-    11400006: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (3)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
-    11400008: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (4)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
-    11400010: _MapPrfab/FanpolGame/MonoBehaviour-SuperTiled2Unity.SuperMap
-    11400012: _MapPrfab/FanpolGame/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
-    11400014: _MapPrfab/FanpolGame/Agua01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
-    11400016: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (5)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
-    11400018: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (6)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
-    11400020: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (7)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
-    11400022: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (8)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
-    11400024: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (9)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
-    11400026: _MapPrfab/FanpolGame/Colision01/Collision_Default/Polygon (10)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
-    11400028: _MapPrfab/FanpolGame/Wall02/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
-    11400030: _MapPrfab/FanpolGame/Wall02/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
-    11400032: _MapPrfab/FanpolGame/Wall02/MonoBehaviour-SuperTiled2Unity.TilemapData
-    11400034: _MapPrfab/FanpolGame/Agua01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
-    11400036: _MapPrfab/FanpolGame/Agua01/MonoBehaviour-SuperTiled2Unity.TilemapData
-    11400038: _MapPrfab/FanpolGame/Ceiling01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
-    11400052: _superAsset
-    11400054: _MapPrfab/FanpolGame/Ceiling01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
-    11400056: _MapPrfab/FanpolGame/Ceiling01/MonoBehaviour-SuperTiled2Unity.TilemapData
-    11400058: _MapPrfab/FanpolGame/Colision01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
-    11400060: _MapPrfab/FanpolGame/Colision01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
-    11400062: _MapPrfab/FanpolGame/Colision01/MonoBehaviour-SuperTiled2Unity.TilemapData
-    11400064: _MapPrfab/FanpolGame/Piso01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
-    11400066: _MapPrfab/FanpolGame/Piso01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
-    11400068: _MapPrfab/FanpolGame/Piso01/MonoBehaviour-SuperTiled2Unity.TilemapData
-    11400070: _MapPrfab/FanpolGame/Piso03/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
-    11400072: _MapPrfab/FanpolGame/Piso03/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
-    11400074: _MapPrfab/FanpolGame/Piso03/MonoBehaviour-SuperTiled2Unity.TilemapData
-    11400076: _MapPrfab/FanpolGame/Wall01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
-    11400078: _MapPrfab/FanpolGame/Wall01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
-    11400080: _MapPrfab/FanpolGame/Wall01/MonoBehaviour-SuperTiled2Unity.TilemapData
+    100000: _MapPrfab/FanpolGame
+    100004: _MapPrfab/FanpolGame/Agua01
+    100008: _MapPrfab/FanpolGame/Camino
+    100010: _MapPrfab/FanpolGame/Ceiling01
+    100012: _MapPrfab/FanpolGame/Colision01
+    100016: _MapPrfab/FanpolGame/Piso01
+    100018: _MapPrfab/FanpolGame/Piso02
+    100020: _MapPrfab/FanpolGame/Piso03
+    100022: _MapPrfab/FanpolGame/Wall01
+    400000: _MapPrfab/FanpolGame/Transform
+    400004: _MapPrfab/FanpolGame/Agua01/Transform
+    400008: _MapPrfab/FanpolGame/Camino/Transform
+    400010: _MapPrfab/FanpolGame/Ceiling01/Transform
+    400012: _MapPrfab/FanpolGame/Colision01/Transform
+    400016: _MapPrfab/FanpolGame/Piso01/Transform
+    400018: _MapPrfab/FanpolGame/Piso02/Transform
+    400020: _MapPrfab/FanpolGame/Piso03/Transform
+    400022: _MapPrfab/FanpolGame/Wall01/Transform
+    11400000: _MapPrfab/FanpolGame/MonoBehaviour-SuperTiled2Unity.SuperMap
+    11400002: _MapPrfab/FanpolGame/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400010: _MapPrfab/FanpolGame/Agua01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400012: _MapPrfab/FanpolGame/Agua01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400014: _MapPrfab/FanpolGame/Agua01/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400022: _MapPrfab/FanpolGame/Camino/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400024: _MapPrfab/FanpolGame/Camino/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400026: _MapPrfab/FanpolGame/Camino/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400028: _MapPrfab/FanpolGame/Ceiling01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400030: _MapPrfab/FanpolGame/Ceiling01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400032: _MapPrfab/FanpolGame/Ceiling01/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400034: _MapPrfab/FanpolGame/Colision01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400036: _MapPrfab/FanpolGame/Colision01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400038: _MapPrfab/FanpolGame/Colision01/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400046: _MapPrfab/FanpolGame/Piso01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400048: _MapPrfab/FanpolGame/Piso01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400050: _MapPrfab/FanpolGame/Piso01/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400052: _MapPrfab/FanpolGame/Piso02/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400054: _MapPrfab/FanpolGame/Piso02/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400056: _MapPrfab/FanpolGame/Piso02/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400058: _MapPrfab/FanpolGame/Piso03/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400060: _MapPrfab/FanpolGame/Piso03/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400062: _MapPrfab/FanpolGame/Piso03/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400064: _MapPrfab/FanpolGame/Wall01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400066: _MapPrfab/FanpolGame/Wall01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400068: _MapPrfab/FanpolGame/Wall01/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400076: _superAsset
     100100000: _MapPrfab
-    2569400265252428798: _MapPrfab/FanpolGame/Grid
-    3664157343022684176: _MapPrfab/FanpolGame/Wall02/TilemapRenderer
+    2569400265252428796: _MapPrfab/FanpolGame/Grid
     3664157343022684178: _MapPrfab/FanpolGame/Agua01/TilemapRenderer
-    3664157343022684186: _MapPrfab/FanpolGame/Ceiling01/TilemapRenderer
-    3664157343022684192: _MapPrfab/FanpolGame/Colision01/TilemapRenderer
-    3664157343022684194: _MapPrfab/FanpolGame/Piso01/TilemapRenderer
-    3664157343022684196: _MapPrfab/FanpolGame/Piso03/TilemapRenderer
-    3664157343022684198: _MapPrfab/FanpolGame/Wall01/TilemapRenderer
-    8195094279510102542: _MapPrfab/FanpolGame/Wall02/Tilemap
+    3664157343022684182: _MapPrfab/FanpolGame/Camino/TilemapRenderer
+    3664157343022684184: _MapPrfab/FanpolGame/Ceiling01/TilemapRenderer
+    3664157343022684186: _MapPrfab/FanpolGame/Colision01/TilemapRenderer
+    3664157343022684190: _MapPrfab/FanpolGame/Piso01/TilemapRenderer
+    3664157343022684192: _MapPrfab/FanpolGame/Piso02/TilemapRenderer
+    3664157343022684194: _MapPrfab/FanpolGame/Piso03/TilemapRenderer
+    3664157343022684196: _MapPrfab/FanpolGame/Wall01/TilemapRenderer
     8195094279510102544: _MapPrfab/FanpolGame/Agua01/Tilemap
-    8195094279510102552: _MapPrfab/FanpolGame/Ceiling01/Tilemap
-    8195094279510102558: _MapPrfab/FanpolGame/Colision01/Tilemap
-    8195094279510102560: _MapPrfab/FanpolGame/Piso01/Tilemap
-    8195094279510102562: _MapPrfab/FanpolGame/Piso03/Tilemap
-    8195094279510102564: _MapPrfab/FanpolGame/Wall01/Tilemap
+    8195094279510102548: _MapPrfab/FanpolGame/Camino/Tilemap
+    8195094279510102550: _MapPrfab/FanpolGame/Ceiling01/Tilemap
+    8195094279510102552: _MapPrfab/FanpolGame/Colision01/Tilemap
+    8195094279510102556: _MapPrfab/FanpolGame/Piso01/Tilemap
+    8195094279510102558: _MapPrfab/FanpolGame/Piso02/Tilemap
+    8195094279510102560: _MapPrfab/FanpolGame/Piso03/Tilemap
+    8195094279510102562: _MapPrfab/FanpolGame/Wall01/Tilemap
   externalObjects: {}
   userData: 
   assetBundleName: 

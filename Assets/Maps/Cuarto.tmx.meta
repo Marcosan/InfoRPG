@@ -87,7 +87,7 @@ ScriptedImporter:
   warnings: []
   missingSortingLayers: []
   missingLayers: []
-  pixelsPerUnit: 32
+  pixelsPerUnit: 100
   edgesPerEllipse: 32
   numberOfObjectsImported: 2
   tilesAsObjects: 0
