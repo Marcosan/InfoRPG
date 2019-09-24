@@ -7,11 +7,113 @@ ScriptedImporter:
     100004: _MapPrfab/ROBOTALaberinto/ceiling2
     100006: _MapPrfab/ROBOTALaberinto/Floor01
     100008: _MapPrfab/ROBOTALaberinto/Libreros
+    100010: _MapPrfab/ROBOTALaberinto/Collider1
+    100012: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default
+    100014: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon
+    100016: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (1)
+    100018: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (2)
+    100020: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (3)
+    100022: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (4)
+    100024: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (5)
+    100026: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (6)
+    100028: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (7)
+    100030: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (8)
+    100032: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (9)
+    100034: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (10)
+    100036: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (11)
+    100038: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (12)
+    100040: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (13)
+    100042: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (14)
+    100044: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (15)
+    100046: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (16)
+    100048: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (17)
+    100050: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (18)
+    100052: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (19)
+    100054: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (20)
+    100056: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (21)
+    100058: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (22)
+    100060: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (23)
+    100062: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (24)
+    100064: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (25)
+    100066: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (26)
+    100068: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (27)
+    100070: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (28)
+    100072: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (29)
+    100074: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (30)
+    100076: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (31)
     400000: _MapPrfab/ROBOTALaberinto/Transform
     400002: _MapPrfab/ROBOTALaberinto/Ceiling/Transform
     400004: _MapPrfab/ROBOTALaberinto/ceiling2/Transform
     400006: _MapPrfab/ROBOTALaberinto/Floor01/Transform
     400008: _MapPrfab/ROBOTALaberinto/Libreros/Transform
+    400010: _MapPrfab/ROBOTALaberinto/Collider1/Transform
+    400012: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Transform
+    400014: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon/Transform
+    400016: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (1)/Transform
+    400018: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (2)/Transform
+    400020: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (3)/Transform
+    400022: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (4)/Transform
+    400024: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (5)/Transform
+    400026: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (6)/Transform
+    400028: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (7)/Transform
+    400030: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (8)/Transform
+    400032: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (9)/Transform
+    400034: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (10)/Transform
+    400036: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (11)/Transform
+    400038: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (12)/Transform
+    400040: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (13)/Transform
+    400042: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (14)/Transform
+    400044: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (15)/Transform
+    400046: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (16)/Transform
+    400048: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (17)/Transform
+    400050: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (18)/Transform
+    400052: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (19)/Transform
+    400054: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (20)/Transform
+    400056: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (21)/Transform
+    400058: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (22)/Transform
+    400060: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (23)/Transform
+    400062: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (24)/Transform
+    400064: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (25)/Transform
+    400066: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (26)/Transform
+    400068: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (27)/Transform
+    400070: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (28)/Transform
+    400072: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (29)/Transform
+    400074: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (30)/Transform
+    400076: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (31)/Transform
+    5000000: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Rigidbody2D
+    6000000: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon/PolygonCollider2D
+    6000002: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (1)/PolygonCollider2D
+    6000004: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (2)/PolygonCollider2D
+    6000006: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (3)/PolygonCollider2D
+    6000008: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (4)/PolygonCollider2D
+    6000010: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (5)/PolygonCollider2D
+    6000012: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (6)/PolygonCollider2D
+    6000014: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (7)/PolygonCollider2D
+    6000016: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (8)/PolygonCollider2D
+    6000018: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (9)/PolygonCollider2D
+    6000020: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (10)/PolygonCollider2D
+    6000022: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (11)/PolygonCollider2D
+    6000024: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (12)/PolygonCollider2D
+    6000026: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (13)/PolygonCollider2D
+    6000028: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (14)/PolygonCollider2D
+    6000030: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (15)/PolygonCollider2D
+    6000032: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (16)/PolygonCollider2D
+    6000034: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (17)/PolygonCollider2D
+    6000036: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (18)/PolygonCollider2D
+    6000038: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (19)/PolygonCollider2D
+    6000040: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (20)/PolygonCollider2D
+    6000042: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (21)/PolygonCollider2D
+    6000044: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (22)/PolygonCollider2D
+    6000046: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (23)/PolygonCollider2D
+    6000048: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (24)/PolygonCollider2D
+    6000050: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (25)/PolygonCollider2D
+    6000052: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (26)/PolygonCollider2D
+    6000054: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (27)/PolygonCollider2D
+    6000056: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (28)/PolygonCollider2D
+    6000058: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (29)/PolygonCollider2D
+    6000060: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (30)/PolygonCollider2D
+    6000062: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (31)/PolygonCollider2D
+    6600000: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/CompositeCollider2D
     11400000: _MapPrfab/ROBOTALaberinto/MonoBehaviour-SuperTiled2Unity.SuperMap
     11400002: _MapPrfab/ROBOTALaberinto/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
     11400004: _MapPrfab/ROBOTALaberinto/Ceiling/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
@@ -27,16 +129,53 @@ ScriptedImporter:
     11400024: _MapPrfab/ROBOTALaberinto/Libreros/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
     11400026: _MapPrfab/ROBOTALaberinto/Libreros/MonoBehaviour-SuperTiled2Unity.TilemapData
     11400028: _superAsset
+    11400030: _MapPrfab/ROBOTALaberinto/Collider1/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400032: _MapPrfab/ROBOTALaberinto/Collider1/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400034: _MapPrfab/ROBOTALaberinto/Collider1/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400036: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400038: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (1)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400040: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (2)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400042: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (3)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400044: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (4)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400046: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (5)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400048: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (6)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400050: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (7)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400052: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (8)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400054: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (9)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400056: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (10)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400058: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (11)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400060: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (12)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400062: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (13)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400064: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (14)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400066: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (15)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400068: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (16)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400070: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (17)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400072: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (18)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400074: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (19)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400076: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (20)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400078: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (21)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400080: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (22)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400082: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (23)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400084: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (24)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400086: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (25)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400088: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (26)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400090: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (27)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400092: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (28)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400094: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (29)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400096: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (30)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400098: _MapPrfab/ROBOTALaberinto/Collider1/Collision_Default/Polygon (31)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
     100100000: _MapPrfab
     2569400265252428796: _MapPrfab/ROBOTALaberinto/Grid
     3664157343022684176: _MapPrfab/ROBOTALaberinto/Ceiling/TilemapRenderer
     3664157343022684178: _MapPrfab/ROBOTALaberinto/ceiling2/TilemapRenderer
     3664157343022684180: _MapPrfab/ROBOTALaberinto/Floor01/TilemapRenderer
     3664157343022684182: _MapPrfab/ROBOTALaberinto/Libreros/TilemapRenderer
+    3664157343022684184: _MapPrfab/ROBOTALaberinto/Collider1/TilemapRenderer
     8195094279510102542: _MapPrfab/ROBOTALaberinto/Ceiling/Tilemap
     8195094279510102544: _MapPrfab/ROBOTALaberinto/ceiling2/Tilemap
     8195094279510102546: _MapPrfab/ROBOTALaberinto/Floor01/Tilemap
     8195094279510102548: _MapPrfab/ROBOTALaberinto/Libreros/Tilemap
+    8195094279510102550: _MapPrfab/ROBOTALaberinto/Collider1/Tilemap
   externalObjects: {}
   userData: 
   assetBundleName: 

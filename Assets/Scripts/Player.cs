@@ -424,7 +424,7 @@ public class Player : MonoBehaviour{
 
     public void NewPlayer()
     {
-        //PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll();
 
         JsonManager.SetInitialDataJson();
         JsonManager.SerializeSettings();
