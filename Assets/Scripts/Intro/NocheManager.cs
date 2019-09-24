@@ -20,6 +20,7 @@ public class NocheManager : MonoBehaviour {
     }
 
     private IEnumerator CambiarNocheDiaCO() {
+        Camera.main.orthographicSize = 5;
         npc.SetSpeedNpc(0.4f,-1);
         yield return new WaitForSeconds(3f);
         Debug.Log("Empieza Noche");

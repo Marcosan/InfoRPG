@@ -32,6 +32,7 @@ public class LetterManager : MonoBehaviour {
 
     public void EmpezarAnimacionTortuga() {
         Debug.Log("Empieza A caminar");
+        Camera.main.orthographicSize = 3;
         npcScript.SetSpeedNpc(0.6f, -1);
     }
 

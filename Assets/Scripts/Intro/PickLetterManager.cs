@@ -13,6 +13,7 @@ public class PickLetterManager : MonoBehaviour {
 
     public void EmpezarAnimacionMano() {
         Debug.Log("Empieza A Tomar carta");
+        Camera.main.orthographicSize = 5;
         StartCoroutine(EmpezarAnimacionManoCO());
     }
 

@@ -237,10 +237,11 @@ public class Player : MonoBehaviour{
             }
         }
         if (isMovingAlone) {
-            if (transform.position.x <= destinyAlone.x + 0.1 &&
-                transform.position.x >= destinyAlone.x - 0.1 &&
-                transform.position.y <= destinyAlone.y + 0.1 &&
-                transform.position.y >= destinyAlone.y - 0.1) {
+            if (transform.position.x <= destinyAlone.x + 0.2 &&
+                transform.position.x >= destinyAlone.x - 0.2 &&
+                transform.position.y <= destinyAlone.y + 0.2 &&
+                transform.position.y >= destinyAlone.y - 0.2) {
+                Debug.Log("llego al punto");
                 cruz_sprite.enabled = false;
                 isMovingAlone = false;
             }
@@ -259,16 +260,18 @@ public class Player : MonoBehaviour{
         isMovingAlone = true;
         hitTouch = Physics2D.Raycast(destinyAlone, Vector2.zero);
         if (hitTouch.collider != null) {
-            if (!hitTouch.collider.tag.Equals("World"))
-                isMovingAlone = false;
+            Debug.Log(hitTouch.collider.tag);
+            if (hitTouch.collider.tag.Equals("Piso")) {
+                destinyAlone.x = (float)Math.Round(destinyAlone.x, 1);
+                destinyAlone.y = (float)Math.Round(destinyAlone.y, 1);
+                destinyAlone.z = 0;
+                cruz.position = destinyAlone;
+                cruz_sprite.enabled = true;
+            }
         } else {
-
+            isMovingAlone = false;
         }
-        destinyAlone.x = (float)Math.Round(destinyAlone.x, 1);
-        destinyAlone.y = (float)Math.Round(destinyAlone.y, 1);
-        destinyAlone.z = 0;
-        cruz.position = destinyAlone;
-        cruz_sprite.enabled = true;
+
     }
     //Angulo con respecto a la vertical y en sentido horario
     public static float Angle(Vector2 p_vector2) {
@@ -421,14 +424,14 @@ public class Player : MonoBehaviour{
 
     public void NewPlayer()
     {
-        PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll();
 
         JsonManager.SetInitialDataJson();
         JsonManager.SerializeSettings();
 
         SaveSystem.LastScene = "Intro";
 
-        SceneManager.LoadScene(SaveSystem.LastScene, LoadSceneMode.Single);
+        SceneManager.LoadScene("Intro", LoadSceneMode.Single);
 
         SaveSystem.wasLoaded = true;
 
