@@ -2,19 +2,23 @@ fileFormatVersion: 2
 guid: bb7f1561b6f479444adb05866713afde
 TextureImporter:
   fileIDToRecycleName:
-    21300000: DAvid_0
+    21300000: Character1_0
     21300002: Character1_1
-    21300004: DAvid_2
-    21300006: DAvid_3
-    21300008: DAvid_4
-    21300010: DAvid_5
-    21300012: DAvid_6
-    21300014: DAvid_7
-    21300016: DAvid_8
-    21300018: DAvid_9
-    21300020: DAvid_10
-    21300022: DAvid_11
+    21300004: Character1_2
+    21300006: Character1_3
+    21300008: Character1_4
+    21300010: Character1_5
+    21300012: Character1_6
+    21300014: Character1_7
+    21300016: Character1_8
+    21300018: Character1_9
+    21300020: Character1_10
+    21300022: Character1_11
     21300024: DAvid_12
+    21300026: Character1_12
+    21300028: Character1_13
+    21300030: Character1_14
+    21300032: Character1_15
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -119,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DAvid_0
+      name: Character1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -127,7 +131,7 @@ TextureImporter:
         width: 38
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,7 +151,7 @@ TextureImporter:
         width: 39
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -159,7 +163,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DAvid_2
+      name: Character1_2
       rect:
         serializedVersion: 2
         x: 99
@@ -167,7 +171,7 @@ TextureImporter:
         width: 37
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,7 +183,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DAvid_3
+      name: Character1_3
       rect:
         serializedVersion: 2
         x: 141
@@ -187,7 +191,7 @@ TextureImporter:
         width: 38
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DAvid_4
+      name: Character1_4
       rect:
         serializedVersion: 2
         x: 2
@@ -207,7 +211,7 @@ TextureImporter:
         width: 32
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -219,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DAvid_5
+      name: Character1_5
       rect:
         serializedVersion: 2
         x: 50
@@ -227,7 +231,7 @@ TextureImporter:
         width: 33
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,7 +243,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DAvid_6
+      name: Character1_6
       rect:
         serializedVersion: 2
         x: 97
@@ -247,7 +251,7 @@ TextureImporter:
         width: 36
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -259,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DAvid_7
+      name: Character1_7
       rect:
         serializedVersion: 2
         x: 143
@@ -267,7 +271,7 @@ TextureImporter:
         width: 32
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,16 +283,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DAvid_8
+      name: Character1_8
       rect:
         serializedVersion: 2
         x: 2
-        y: 0
+        y: 47
         width: 39
-        height: 93
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 46, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -299,15 +303,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DAvid_9
+      name: Character1_9
       rect:
         serializedVersion: 2
         x: 49
-        y: 0
+        y: 46
         width: 39
-        height: 94
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,7 +323,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DAvid_10
+      name: Character1_10
       rect:
         serializedVersion: 2
         x: 100
@@ -327,7 +331,7 @@ TextureImporter:
         width: 36
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -339,15 +343,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DAvid_11
+      name: Character1_11
       rect:
         serializedVersion: 2
         x: 143
-        y: 0
+        y: 46
         width: 36
-        height: 93
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -359,12 +363,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DAvid_12
+      name: Character1_12
       rect:
         serializedVersion: 2
-        x: 96
+        x: 1
         y: 0
-        width: 39
+        width: 42
         height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -373,7 +377,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 039dcc8fa2bd0bf4ead6059ec970918b
+      spriteID: 08a77d01012c4d24c96a828c84185366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character1_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fd992c58b937c4d9e263e24ec9c605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character1_14
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71407f9aa68082f41a6c315e38e3c893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character1_15
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484727ee08fd9d844b6cef9a2252c2d4
       vertices: []
       indices: 
       edges: []
