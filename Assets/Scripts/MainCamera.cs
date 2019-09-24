@@ -21,7 +21,7 @@ public class MainCamera : MonoBehaviour{
     float fadeTime = 1f;
     GameObject area;
 
-    private bool sinMapa = false;
+    public bool sinMapa = false;
 
     void Awake(){
         target = GameObject.FindGameObjectWithTag("Player").transform;

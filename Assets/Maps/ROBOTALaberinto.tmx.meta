@@ -1,0 +1,56 @@
+fileFormatVersion: 2
+guid: c5462a4ad348111458e4e8f94b9c9094
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: _MapPrfab/ROBOTALaberinto
+    100002: _MapPrfab/ROBOTALaberinto/Ceiling
+    100004: _MapPrfab/ROBOTALaberinto/ceiling2
+    100006: _MapPrfab/ROBOTALaberinto/Floor01
+    100008: _MapPrfab/ROBOTALaberinto/Libreros
+    400000: _MapPrfab/ROBOTALaberinto/Transform
+    400002: _MapPrfab/ROBOTALaberinto/Ceiling/Transform
+    400004: _MapPrfab/ROBOTALaberinto/ceiling2/Transform
+    400006: _MapPrfab/ROBOTALaberinto/Floor01/Transform
+    400008: _MapPrfab/ROBOTALaberinto/Libreros/Transform
+    11400000: _MapPrfab/ROBOTALaberinto/MonoBehaviour-SuperTiled2Unity.SuperMap
+    11400002: _MapPrfab/ROBOTALaberinto/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400004: _MapPrfab/ROBOTALaberinto/Ceiling/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400006: _MapPrfab/ROBOTALaberinto/Ceiling/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400008: _MapPrfab/ROBOTALaberinto/Ceiling/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400010: _MapPrfab/ROBOTALaberinto/ceiling2/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400012: _MapPrfab/ROBOTALaberinto/ceiling2/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400014: _MapPrfab/ROBOTALaberinto/ceiling2/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400016: _MapPrfab/ROBOTALaberinto/Floor01/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400018: _MapPrfab/ROBOTALaberinto/Floor01/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400020: _MapPrfab/ROBOTALaberinto/Floor01/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400022: _MapPrfab/ROBOTALaberinto/Libreros/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400024: _MapPrfab/ROBOTALaberinto/Libreros/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400026: _MapPrfab/ROBOTALaberinto/Libreros/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400028: _superAsset
+    100100000: _MapPrfab
+    2569400265252428796: _MapPrfab/ROBOTALaberinto/Grid
+    3664157343022684176: _MapPrfab/ROBOTALaberinto/Ceiling/TilemapRenderer
+    3664157343022684178: _MapPrfab/ROBOTALaberinto/ceiling2/TilemapRenderer
+    3664157343022684180: _MapPrfab/ROBOTALaberinto/Floor01/TilemapRenderer
+    3664157343022684182: _MapPrfab/ROBOTALaberinto/Libreros/TilemapRenderer
+    8195094279510102542: _MapPrfab/ROBOTALaberinto/Ceiling/Tilemap
+    8195094279510102544: _MapPrfab/ROBOTALaberinto/ceiling2/Tilemap
+    8195094279510102546: _MapPrfab/ROBOTALaberinto/Floor01/Tilemap
+    8195094279510102548: _MapPrfab/ROBOTALaberinto/Libreros/Tilemap
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  errors: []
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  pixelsPerUnit: 32
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  tilesAsObjects: 0
+  importSorting: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets: []
