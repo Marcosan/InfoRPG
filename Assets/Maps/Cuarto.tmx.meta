@@ -15,6 +15,8 @@ ScriptedImporter:
     100020: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (1)
     100022: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (2)
     100024: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (3)
+    100026: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (4)
+    100028: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (5)
     400000: _MapPrfab/Cuarto/Transform
     400002: _MapPrfab/Cuarto/cubertor/Transform
     400004: _MapPrfab/Cuarto/layer/Transform
@@ -28,11 +30,15 @@ ScriptedImporter:
     400020: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (1)/Transform
     400022: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (2)/Transform
     400024: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (3)/Transform
+    400026: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (4)/Transform
+    400028: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (5)/Transform
     5000000: _MapPrfab/Cuarto/Collision/Collision_Default/Rigidbody2D
     6000000: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon/PolygonCollider2D
     6000002: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (1)/PolygonCollider2D
     6000004: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (2)/PolygonCollider2D
     6000006: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (3)/PolygonCollider2D
+    6000008: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (4)/PolygonCollider2D
+    6000010: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (5)/PolygonCollider2D
     6600000: _MapPrfab/Cuarto/Collision/Collision_Default/CompositeCollider2D
     11400000: _MapPrfab/Cuarto/MonoBehaviour-SuperTiled2Unity.SuperMap
     11400002: _MapPrfab/Cuarto/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
@@ -62,6 +68,8 @@ ScriptedImporter:
     11400050: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (1)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
     11400052: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (2)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
     11400054: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (3)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400056: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (4)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400058: _MapPrfab/Cuarto/Collision/Collision_Default/Polygon (5)/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
     100100000: _MapPrfab
     2569400265252428796: _MapPrfab/Cuarto/Grid
     3664157343022684176: _MapPrfab/Cuarto/cubertor/TilemapRenderer
@@ -87,7 +95,7 @@ ScriptedImporter:
   warnings: []
   missingSortingLayers: []
   missingLayers: []
-  pixelsPerUnit: 100
+  pixelsPerUnit: 32
   edgesPerEllipse: 32
   numberOfObjectsImported: 2
   tilesAsObjects: 0
